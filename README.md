@@ -577,14 +577,6 @@ From the **Discussion** section:
 
 ---
 
-## GitHub Repository Link (from the notebook)
-
-Notebook section: **Link GitHub Repository**
-
-- https://github.com/Oliver-VG/GAN-Monet-Kaggle-Mini-Project
-
----
-
 ## Citation / References
 
 Notebook section: **Citation / References**
