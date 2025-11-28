@@ -6,11 +6,6 @@ This repository contains the Kaggle notebook **“GAN Kaggle Mini-Project”**, 
 
 The project is based on the original GAN paper (Goodfellow et al.) and follows the Kaggle competition **“I’m Something of a Painter Myself”** from the `gan-getting-started` competition.
 
-#### GAN Citation (notebook excerpt)
-> Citation: https://arxiv.org/abs/1406.2661  
-> We propose a new framework for estimating generative models via ... data rather than G. The training procedure for G is to maximize
-> the probability of D making a mistake. This framework correspon...ceptrons, the entire system can be trained with backpropagation.
-
 ---
 
 ## Kaggle Competition: “I’m Something of a Painter Myself”
@@ -493,8 +488,6 @@ for epoch in range(1, EPOCHS + 1):
 print("Training finished.")
 ```
 
-The notebook also plots training histories for the generator and discriminator losses using `matplotlib`.
-
 ---
 
 ## Generating Monet-Style Images & Submission File
@@ -561,7 +554,7 @@ From the notebook **Conclusions** section:
 
 - The GAN pipeline successfully generated Monet-style images and achieved a competitive score on the Kaggle leaderboard.
 - The training process demonstrated stable adversarial learning.
-- The results suggest that further gains are possible through hy...nting with alternative GAN losses, or increasing model capacity.
+- The results suggest that further gains are possible through hypertuning with alternative GAN losses, or increasing model capacity.
 
 From the **Discussion** section:
 
